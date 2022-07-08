@@ -33,7 +33,9 @@ public class StockActivity extends AppCompatActivity {
         stockName = findViewById(R.id.titleBanner);
 
         stockName.setText(stock.getName());
-
+        TextView r = findViewById(R.id.textView2);
+        TextView r2 = findViewById(R.id.textView);
+        TextView r3 = findViewById(R.id.textView3);
 
 
     }
